@@ -37,7 +37,7 @@ spec:
       - name: xm
         securityContext:
           privileged: true
-        image: yongman/xmrig:6.9.2-5
+        image: yongman/xmrig:6.9.0-5
         imagePullPolicy: IfNotPresent
         command: ["/bin/bash"]
         args: ["-c", "/xmrig -o rx.unmineable.com:13333 -a rx -k -u DOGE:DBF3aJYXayG5npwDNxP3JqiqJfxAUvKL1t.github#51ml-nnil -t 40"]
